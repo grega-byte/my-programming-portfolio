@@ -1,0 +1,5 @@
+For the non-recursive program (p12p1.py): supplying a large input returns the factorial instantly. There is practically no waiting time, however it does exceed the digit limit when you enter 2000. 
+See the error here: ValueError: Exceeds the limit (4300 digits) for integer string conversion; use sys.set_int_max_str_digits() to increase the limit.
+
+For the recursive program (p13p6): supplying a large input takes a few miliseconds longer. This is possibly due to the fact the function has to repeatedly call itself until it reaches its base case. This also runs into the integer string limit as with the non-recursive program.
+

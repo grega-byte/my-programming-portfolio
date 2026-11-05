@@ -1,0 +1,37 @@
+animals='herdofelephants'
+seg=animals[3:3]
+print(seg)
+
+animals='herdofelephants'
+seg=animals[7:3]
+print(seg)
+
+animals='herdofelephants'
+seg=animals[0:6]
+print(seg)
+
+animals='herdofelephants'
+seg=animals[:6]
+print(seg)
+
+animals='herdofelephants'
+seg=animals[1:]
+print(seg)
+
+animals='herdofelephants'
+seg=animals[:]
+print(seg)
+
+
+#Experiment with different values of x and y. For example:
+####
+#(a) What happens when x and y are the same?
+#Nothing prints as it goes from 3the same leytter to tyhe same letter.
+#(b) What happens when x is greater than y?
+#Nothing prints out as the value x is larger than y and moving forward will produce nothing.
+#(c) What happens when x is omitted?
+#it prints as far as the y value selected, it assumes x is 0
+#(d) What happens when y is omitted?
+#it prints beginning at the x value and prints the rest of the word, assuming the y value is the final index value
+#(e) What happens when both x and y are omitted?
+#it prints the full variable animals 

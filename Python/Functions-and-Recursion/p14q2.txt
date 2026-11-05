@@ -1,0 +1,5 @@
+For the non-recursive program (p12p1.py): supplying a large input exceeds the digit limit. This is because the factirial exceeds Pythons limit for converting large integers into strings when printing. 
+See the error here: ValueError: Exceeds the limit (4300 digits) for integer string conversion; use sys.set_int_max_str_digits() to increase the limit.
+
+For the recursive program (p13p6): increasing the input to 2000 caused a recurrsion error(RecursionError: maximum recursion depth exceeded). After research I found this is because python has a limit on how many times a function can call itself. This happens due to the function repeatedly calling on itself to reach its result. 
+The integer to string limit can occur with this program too when printing a large factorial.

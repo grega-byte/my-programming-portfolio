@@ -1,0 +1,17 @@
+(a) If you include the line print(print max())?
+
+Here when we state the print(print max()) at the end of the print max function, 
+everything runs as normal but an additional statement none is printed because 
+we have not returned any values to the outer print() function. Therefore it prints 
+none to the outer print(print_max print())
+
+
+(b) If you omit the brackets after print max(), ie just have print max?
+
+Nothing runs as we have not called on the function without adding the brackets, therefore no code is run and nothing printed.
+
+(c) If you include the line print(print max)?
+
+Python gives a number representation of that function in this form 
+<function print_max at 0x0000013E90DDBB60>. However, nothing runs again because we have not actually 
+called on the function with brackets().

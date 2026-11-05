@@ -1,0 +1,24 @@
+car = 'porche'
+letter = car[3]
+print(letter)
+
+>>> c
+
+car = 'porche'
+letter = car[0]
+print(letter)
+
+>>> p
+
+
+#car[0] = p
+#car[1] = o
+#car[2] = r
+#car[3] = c
+#car[4] = h
+#car[5] = e
+
+car = 'porche'
+letter = car[6]
+print(letter)
+#this string index would be out of range and result in an index error
