@@ -27,12 +27,12 @@ This coursework project contains a MySQL database dump for a recruitment scenari
 
 ## 6. How to Run
 
-Use a MySQL 8.0 compatible server. Create and select an empty database, then import `kearns26159805.sql`. The dump drops and recreates its tables, so use an empty database or back up existing data first. After importing the dump, execute the scripts in `COMP20240_Stored_Procedures/` against the same database to create the Q1–Q11 procedures.
+Use a MySQL 8.0 compatible server. Create and select an empty database, then import `mysql_database_dump.sql`. The dump drops and recreates its tables, so use an empty database or back up existing data first. After importing the dump, execute the scripts in `COMP20240_Stored_Procedures/` against the same database to create the Q1–Q11 procedures.
 
 ## 7. Project Structure
 
-- `kearns26159805.sql` — schema, sample data, and routines from the database dump.
+- `mysql_database_dump.sql` — schema, sample data, and routines from the database dump.
 - `COMP20240_Stored_Procedures/` — separate SQL scripts for procedures Q1–Q11.
 - `ER_Diagram.pdf` — entity relationship diagram.
-- `kearns26159805.pdf` — submitted assignment PDF.
+- `mysql_assignment_documentation.pdf` — submitted assignment PDF.
 - `MySQLassignment20240-26-27.pdf` — assignment brief PDF.
